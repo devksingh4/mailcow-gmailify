@@ -39,7 +39,7 @@ class ReplaceReturnPathMilter(Milter.Base):
 
         if self.message_from_address:
             self.log("Setting MAIL FROM to From address:", self.message_from_address)
-            self.changefrom(self.message_from_address, "")  # Update the envelope sender to the From address
+            self.chgfrom(self.message_from_address, "")  # Update the envelope sender to the From address
 
         self.log("Removing headers:", ", ".join(self.headers_to_remove))
         for header in self.headers_to_remove:
