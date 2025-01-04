@@ -1,4 +1,4 @@
-# mailcow-tweaks
+# mailcow-gmailify
 Tweaks to enable secure and consistent Mailcow -> Gmail forwarding.
 
 ## Motivation
